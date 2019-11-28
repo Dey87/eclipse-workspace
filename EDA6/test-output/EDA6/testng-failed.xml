@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EDA6]">
+  <listeners>
+    <listener class-name="edaTest.Listeners"/>
+    <listener class-name="resource.ExtentReporterNG"/>
+  </listeners>
+  <test name="Departments(failed)">
+    <classes>
+      <class name="edaTest.DepartmentviewUserTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- edaTest.DepartmentviewUserTest -->
+      <class name="edaTest.DepartmentManageUserTest">
+        <methods>
+          <include name="DMultideUserSelect"/>
+          <include name="initialize"/>
+          <include name="BSingleUserSelect"/>
+          <include name="CSingledeUserSelect"/>
+          <include name="teardown"/>
+          <include name="AMultipleUserSelect"/>
+        </methods>
+      </class> <!-- edaTest.DepartmentManageUserTest -->
+      <class name="edaTest.DepartmentAddTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- edaTest.DepartmentAddTest -->
+      <class name="edaTest.DepartmentEditTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="DepartmentEdit"/>
+        </methods>
+      </class> <!-- edaTest.DepartmentEditTest -->
+    </classes>
+  </test> <!-- Departments(failed) -->
+</suite> <!-- Failed suite [EDA6] -->

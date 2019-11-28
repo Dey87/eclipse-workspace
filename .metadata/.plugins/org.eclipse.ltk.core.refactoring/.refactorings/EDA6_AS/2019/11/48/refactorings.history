@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;EDA6_AS/src&apos; to &apos;src1&apos;" description="Rename resource &apos;src&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src" name="src1" stamp="1574973140138" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;EDA6_AS/src1&apos; to &apos;src&apos;" description="Rename resource &apos;src1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src1" name="src" stamp="1574973195713" updateReferences="true"/>
+</session>

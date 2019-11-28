@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EDA6">
+<listeners>
+ 
+         <listener class-name="edaTest.Listeners"/>
+         <listener class-name="resource.ExtentReporterNG"/>
+         
+ </listeners>
+  <test name="Departments">
+    <classes>
+      <class name="edaTest.DepartmentAddNegativeTest"/>
+      <class name="edaTest.DepartmentAddTest"/>
+      <class name="edaTest.DepartmentEditTest"/>
+      <class name="edaTest.DepartmentManageUserTest"/>
+      <class name="edaTest.DepartmentviewUserTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Projects">
+    <classes>
+      <class name="edaTest.ProjectAddTest"/>
+      <class name="edaTest.ProjectEditTest"/>
+      <class name="edaTest.ProjectManageUserTest"/>
+      <class name="edaTest.ProjectviewUserTest"/>
+    </classes>
+  </test> 
+  <test name="Files">
+    <classes>
+       <class name="edaTest.File_uploadTest"/>
+      <class name="edaTest.File_upload_RelatedFilesTest"/>
+      <class name="edaTest.File_Upload_newVersionTest"/>
+      <class name="edaTest.File_Tag_Test"/>
+    </classes>
+  </test> 
+  <test name="Fields">
+    <classes>
+      <class name="edaTest.FieldAddTest"/>
+      <class name="edaTest.FieldProjectLevelAddTest"/>
+      <class name="edaTest.FieldLookupAddTest"/>
+      <class name="edaTest.File_Tag_Test"/>
+    </classes>
+  </test> 
+  <test name="Views">
+    <classes>
+      <class name="edaTest.ViewAddTest"/>
+      <class name="edaTest.ViewEditTest"/>
+      <class name="edaTest.ViewNegativeAddTest"/>
+    </classes>
+  </test> 
+  <test name="Filters">
+    <classes>
+      <class name="edaTest.FilterAddTest"/>
+    </classes>
+  </test> 
+  <test name="Users">
+    <classes>
+      <class name="edaTest.UserAddTest"/>
+      <class name="edaTest.UserEditTest"/>
+    </classes>
+  </test> 
+  <test name="Roles">
+    <classes>
+      <class name="edaTest.RoleAddTest"/>
+      <class name="edaTest.RoleAdmin_Test"/>
+      <class name="edaTest.RoleAdd_ButtonTest"/>
+      <class name="edaTest.RoleDeptUser_Test"/>
+      <class name="edaTest.RoleUpdate_ButtonTest"/>
+    </classes>
+  </test> 
+  <test name="Current_Details">
+    <classes>
+      <class name="edaTest.CurrentDetailsAddTest"/>
+    </classes>
+  </test> 
+  <test name="Enterprise">
+    <classes>
+      <class name="edaTest.EnterpriseAddTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
