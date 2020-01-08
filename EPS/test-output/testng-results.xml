@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58270" started-at="2020-01-05T17:18:59Z" finished-at="2020-01-05T17:19:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58270" started-at="2020-01-05T17:18:59Z" finished-at="2020-01-05T17:19:57Z">
+      <class name="epsTest.NewTenderTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="initialize" is-config="true" duration-ms="29147" started-at="2020-01-05T22:48:59Z" finished-at="2020-01-05T22:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="NewTender()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="NewTender" duration-ms="26944" started-at="2020-01-05T22:49:28Z" finished-at="2020-01-05T22:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewTender -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="teardown" is-config="true" duration-ms="2134" started-at="2020-01-05T22:49:55Z" finished-at="2020-01-05T22:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- epsTest.NewTenderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
