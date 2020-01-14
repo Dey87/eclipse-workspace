@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58270" started-at="2020-01-05T17:18:59Z" finished-at="2020-01-05T17:19:57Z">
+  <suite name="Default suite" duration-ms="233623" started-at="2020-01-13T15:08:54Z" finished-at="2020-01-13T15:12:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58270" started-at="2020-01-05T17:18:59Z" finished-at="2020-01-05T17:19:57Z">
+    <test name="Default test" duration-ms="233623" started-at="2020-01-13T15:08:54Z" finished-at="2020-01-13T15:12:48Z">
       <class name="epsTest.NewTenderTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="initialize" is-config="true" duration-ms="29147" started-at="2020-01-05T22:48:59Z" finished-at="2020-01-05T22:49:28Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="initialize" is-config="true" duration-ms="91859" started-at="2020-01-13T20:38:54Z" finished-at="2020-01-13T20:40:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="NewTender()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="NewTender" duration-ms="26944" started-at="2020-01-05T22:49:28Z" finished-at="2020-01-05T22:49:55Z">
+        <test-method status="PASS" signature="NewTender()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="NewTender" duration-ms="139648" started-at="2020-01-13T20:40:26Z" finished-at="2020-01-13T20:42:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewTender -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="teardown" is-config="true" duration-ms="2134" started-at="2020-01-05T22:49:55Z" finished-at="2020-01-05T22:49:57Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:epsTest.NewTenderTest@5f375618]" name="teardown" is-config="true" duration-ms="2078" started-at="2020-01-13T20:42:46Z" finished-at="2020-01-13T20:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
