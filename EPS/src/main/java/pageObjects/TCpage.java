@@ -27,6 +27,20 @@ public WebDriver driver;
 	private By Tabs=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li/a[1]");
 	public By ExcelBidding=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[7]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]");
 	
+	private By p1_input=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[2]/div/div[1]/tender-custom-input[1]/div[1]/div[1]/input[1]");
+	private By p1_date=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[2]/div/div[1]/tender-custom-input[1]/div[1]/div[1]/div[1]/div[1]/input[1]");
+	
+	private By p2_date=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/form[1]/div[2]/div/div[1]/tender-custom-input[1]/div[1]/div[1]/div[1]/div[1]/input[1]");
+	
+	private By p3_button=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[1]/div[1]/button[1]");
+	private By p3_input=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr/td/span[1]/tender-custom-input[1]/div[1]/div[1]/input[1]");
+	private By p3_upload=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr/td[4]");
+	
+	private By p4_button=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[2]/a[5]/button[1]");
+	private By p4_input=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr/td/span[1]/span[1]/tender-custom-input[1]/div[1]/div[1]/input[1]");
+	private By p4_quantity=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr/td[5]/span[1]/span[1]/span[1]/tender-custom-input[1]/div[1]/div[1]/input[1]");
+	private By p4_select=By.xpath("/html[1]/body[1]/section[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[i]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr/td[8]/span[1]/span[1]/tender-custom-input[1]/div[1]/div[1]/select[1]");
+	
 	
 	public TCpage(WebDriver driver) {
 		
@@ -87,9 +101,53 @@ public WebDriver driver;
 	{
 		return driver.findElement(Submit);
 	}
+	
+	
 	public List<WebElement> getTabs()
 	{
 		return driver.findElements(Tabs);
 	}
+	
+	public List<WebElement> getp1_input()
+	{
+		return driver.findElements(p1_input);
+	}
+	public List<WebElement> getp1_date()
+	{
+		return driver.findElements(p1_date);
+	}
+	public List<WebElement> getp2_date()
+	{
+		return driver.findElements(p2_date);
+	}
+	public List<WebElement> getp3_button()
+	{
+		return driver.findElements(p3_button);
+	}
+	public List<WebElement> getp3_input()
+	{
+		return driver.findElements(p3_input);
+	}
+	public List<WebElement> getp3_upload()
+	{
+		return driver.findElements(p3_upload);
+	}
+	public List<WebElement> getp4_button()
+	{
+		return driver.findElements(p4_button);
+	}
+	public List<WebElement> getp4_input()
+	{
+		return driver.findElements(p4_input);
+	}
+	public List<WebElement> getp4_quantity()
+	{
+		return driver.findElements(p4_quantity);
+	}
+	public List<WebElement> getp4_select()
+	{
+		return driver.findElements(p4_select);
+	}
+	
 
 }
